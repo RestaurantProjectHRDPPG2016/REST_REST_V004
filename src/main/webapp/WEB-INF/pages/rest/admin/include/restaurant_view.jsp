@@ -34,17 +34,12 @@
 <%@include file="menu_right_view.jsp"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-    
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	
 <div id="page-wrapper" ng-controller="restCtrl">
 	<div class="container-fluid">
 		<!-- Page Heading -->
 		<div class="row">
 			<div class="col-lg-12">
 				<h1 class="page-header">Restaurant</h1>
-				
-
 				<ol class="breadcrumb">
 					<li><i class="fa fa-dashboard"></i> <a href="index.html">Dashboard</a>
 					</li>
@@ -56,17 +51,25 @@
 <div class="panel panel-default">
 		
 			<div class="panel-heading" id="Res-info">
-				<h2>Restaurant Information</h2>
+				<h2>ព័ណ៍មានរបស់ភោជនីយដ្ឋាន</h2>
 			</div>
 			<div class="panel-body">
+<!-- 
+                 <div class="input-group">
+                    <input type="text" class="form-control" ng-model="nameforsearchrest" >
+                
+                    <div class="input-group-btn">
+                        <button type="button" class="btn btn-search btn-success" ng-click="searchRestAdmin()">
+                            <span class="glyphicon glyphicon-search"></span>
+                            <span class="label-icon">Search</span>
+                        </button>
+                    </div>
+                 
+                </div>   -->
 				<div class="table-responsive">
 
 					<button class="btn btn-success" data-toggle="modal"
 						data-target="#myModal1" ng-click="addButton()">Add New</button>
-	
-                <div class="input-group">
-                    <input type="text" class="form-control" ng-model="nameforsearch" >
-                </div>
 					<p>&nbsp</p>
 					<div>
 						<table class="table table-bordered table-hover">
@@ -87,17 +90,17 @@
 									<td>{{r.desc}}</td>
 							
 									<td>
-									</a><button class="btn btn-primary" ng-click="deleteRestaurant(r.id)">
-											<span class="glyphicon glyphicon-trash"></span>
+										<button class="btn btn-primary" ng-click="deleteRestaurant(r.id)">
+												<span class="glyphicon glyphicon-trash"></span>
+										</button>
+										
+										<button class="btn btn-primary" data-toggle="modal"
+							data-target="#myModal1" ng-click="getupdateRestauratn(this)">
+												<span class="glyphicon glyphicon-pencil"></span>
 										</button>
 									
-										<button class="btn btn-primary" data-toggle="modal"
-						data-target="#myModal1" ng-click="getupdateRestauratn(this)">
-											<span class="glyphicon glyphicon-pencil"></span>
-										</button>
-								
 										<a href="/restaurant_detail_view/{{r.id}}" class="btn btn-primary">
-											<span class="glyphicon glyphicon-level-up"></span>
+												<span class="glyphicon glyphicon-level-up"></span>
 										</a>
 									</td>
 								</tr>
@@ -349,10 +352,6 @@
 			</div>
 			</div>
 		</div>
-	<!-- /.row -->
-</div>
-<!-- /.container-fluid -->
-<!-- /#page-wrapper -->
 <!-- /#wrapper -->
 <%@include file="footer_view.jsp"%>
 

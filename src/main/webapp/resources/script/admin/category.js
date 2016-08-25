@@ -416,6 +416,8 @@ app.controller('restCtrl',function($scope, $http, $window, $rootScope) {
 
 					// GetALL
 					RESTAURANT.getRest = function() {
+						$scope.filter.name="";
+						console.log( $scope.filter);
 						$http({
 							url : 'http://localhost:8888/restaurant',
 							params : $scope.filter,
@@ -674,11 +676,11 @@ app.controller('restCtrl',function($scope, $http, $window, $rootScope) {
 						// deletedImageIDs['img']
 						// deletedImagesIDs['menus']
 						for (var i = 0; i < deletedImageIDs['img'].length; i++) {
-							frmData.append("imageDelete", deletedImageIDs['img'][i]);
+							frmData.append("deletedImageIds", deletedImageIDs['img'][i]);
 						}
 						
 						for (var i = 0; i < deletedImageIDs['menus'].length; i++) {
-							frmData.append("menuDelete", deletedImageIDs['menus'][i]);
+							frmData.append("deletedMenuIds", deletedImageIDs['menus'][i]);
 						}
 						
 						
