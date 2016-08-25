@@ -1,36 +1,33 @@
+<style>
+	.myfooter a{
+		font-size: 20px;
+	}
+	.myfooter a:hover{
+		font-size: 22px;
+		text-decoration:underline;
+		color: blue;
+	}
+	
+</style>
 
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
 <footer>
 <!-- footer vies_jsp -->
     <div class="footer" id="footer">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-3  col-md-3 col-sm-4 col-xs-6">
+            <div class="row myfooter">
+                <div class="col-lg-4  col-md-4 col-sm-6 col-xs-12">
                     <h3> Fresh Menu</h3>
                     <ul>
-                        <li> <a href="#"> about us </a> </li>
-                        <li> <a href="#"> contact us </a> </li>
-                        <li> <a href="#"> our sponsor </a> </li>
-                        <li> <a href="#"> view image galary  </a> </li>
+                        <li> <a href="#"> ទំព័រដើម </a> </li>
+                        <li> <a href="#"> អំពីយើង </a> </li>
+                        <li> <a href="#"> ទំនាក់ទំនង </a> </li>
+                        <li> <a href="#"> ចុះឈ្មោះ </a> </li>
+                        <li> <a href="#"> ចូលប្រើ </a> </li>
                     </ul>
                 </div>
-      
-                <div class="col-lg-3  col-md-3 col-sm-4 col-xs-6">
-                    <h3> Lorem Ipsum </h3>
-                    <ul>
-                        <li> <a href="#"> Lorem Ipsum </a> </li>
-                        <li> <a href="#"> Lorem Ipsum </a> </li>
-                        <li> <a href="#"> Lorem Ipsum </a> </li>
-                        <li> <a href="#"> Lorem Ipsum </a> </li>
-                    </ul>
-                </div>
-                <div class="col-lg-3  col-md-3 col-sm-4 col-xs-6">
-                    <h3> Download Mobile App </h3>
-                    <ul>
-                        <li> <a href="#"><img src="${pageContext.request.contextPath}/resources/upload/playlist/img/appstore.png"/></a> </li>
-                        <li> <a href="#"><img src="${pageContext.request.contextPath}/resources/upload/playlist/img/googleplay.png"/> </a> </li>
-                    </ul>
-                </div>
-                <div class="col-lg-3  col-md-3 col-sm-6 col-xs-12 ">
+                <div class="col-lg-4  col-md-6 col-sm-6 col-xs-12 ">
                     <h3> Social Network </h3>
                
                     <ul class="social">
@@ -39,6 +36,13 @@
                         <li> <a href="#"> <i class="fa fa-google-plus">   </i> </a> </li>
                         <li> <a href="#"> <i class="fa fa-pinterest">   </i> </a> </li>
                         <li> <a href="#"> <i class="fa fa-youtube">   </i> </a> </li>
+                    </ul>
+                </div>
+               <div class="col-lg-4  col-md-6 col-sm-6 col-xs-12">
+                    <h3> Download Mobile App </h3>
+                    <ul>
+                        <li> <a href="#"><img src="${pageContext.request.contextPath}/resources/upload/playlist/img/appstore.png"/></a> </li>
+                        <li> <a href="#"><img src="${pageContext.request.contextPath}/resources/upload/playlist/img/googleplay.png"/> </a> </li>
                     </ul>
                 </div>
             </div>
@@ -51,7 +55,7 @@
     <div class="footer-bottom">
         <div class="container">
         <center>
-            <p class="pull-center"> Copyright � Footer E-commerce Plugin 2014. All right reserved. </p>
+            <p class="pull-center"> Copyright © Footer E-commerce Plugin 2014. All right reserved. </p>
         </center>
         </div>
     </div>
