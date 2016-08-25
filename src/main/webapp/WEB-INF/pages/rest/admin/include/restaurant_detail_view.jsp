@@ -21,17 +21,14 @@
                 </div>
                 <!-- /.row -->
                 
-                <div class="row">
-                    <div class="col-lg-12" id="Res-info">
-                    
-                     <button class="btn btn-primary">DELETE &nbsp &nbsp <span class="glyphicon glyphicon-trash"></span></button>
-					<button class="btn btn-primary">UPDATE &nbsp &nbsp <span class="glyphicon glyphicon-pencil"></span></button>
-					<button class="btn btn-primary">ADD NEW &nbsp &nbsp <span class="glyphicon glyphicon-plus"></span></button>
-					<br>
-                        <h2>Restaurant Information</h2>
-                       <div>
+           <div class="panel panel-default">
+		
+			<div class="panel-heading" id="Res-info">
+				<h2>Restaurant Information</h2>
+			</div>
+			<div class="panel-body">
                    				
-                            <table class="table table-bordered table-hover">
+                            <table class="table table-condensed"">
                                 <thead ng-repeat="ra in restByID">
                                     <tr>
                                     	<th> Name </th>

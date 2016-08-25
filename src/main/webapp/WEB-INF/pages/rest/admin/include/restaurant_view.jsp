@@ -63,7 +63,10 @@
 
 					<button class="btn btn-success" data-toggle="modal"
 						data-target="#myModal1" ng-click="addButton()">Add New</button>
-
+	
+                <div class="input-group">
+                    <input type="text" class="form-control" ng-model="nameforsearch" >
+                </div>
 					<p>&nbsp</p>
 					<div>
 						<table class="table table-bordered table-hover">
@@ -84,9 +87,10 @@
 									<td>{{r.desc}}</td>
 							
 									<td>
-										<button class="btn btn-primary">
+									</a><button class="btn btn-primary" ng-click="deleteRestaurant(r.id)">
 											<span class="glyphicon glyphicon-trash"></span>
 										</button>
+									
 										<button class="btn btn-primary" data-toggle="modal"
 						data-target="#myModal1" ng-click="getupdateRestauratn(this)">
 											<span class="glyphicon glyphicon-pencil"></span>

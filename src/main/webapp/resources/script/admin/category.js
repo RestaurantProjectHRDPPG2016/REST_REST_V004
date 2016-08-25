@@ -605,24 +605,7 @@ app.controller('restCtrl',function($scope, $http, $window, $rootScope) {
 //							}
 //						});
 //						
-						/********
-						                        $scope.sample1 = [
-                {
-                    id  : 10,
-                    name: "1",
-                    type: "image/jpg",
-                    size: '',
-                    file: "http://www.gettyimages.com/gi-resources/images/Homepage/Hero/US/MAR2016/prestige-587705839_full.jpg"
-                },
-                {
-                    id  : 20,
-                    name: "2",
-                    size: '',
-                    type: "image/jpg",
-                    file: "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQt3XVxyI5sLL8f1_vPQkAxGRBIfYa6e4lESTqVQk3j_JN_O0M6LA"
-                }
-            ];
-					     */
+					
 						
 						$scope.sampleRest = [];
 						$scope.sampleMenu = [];
@@ -669,7 +652,7 @@ app.controller('restCtrl',function($scope, $http, $window, $rootScope) {
 					}			  
 
 					RESTAURANT.updateRestaurant = function() {
-						// console.log(id);
+						console.log("IDIIII" +id);
 						var frmData = new FormData();
 						var tel = $('input[name=tel]');
 
@@ -730,9 +713,20 @@ app.controller('restCtrl',function($scope, $http, $window, $rootScope) {
 										function(error) {
 											console.log(error.data);
 											alert('failed to upload data! Please Try again Youra !!!!!');
-											$scope.getRest();
 										});
 					}
+					$scope.deleteRestaurant = function(id) {
+						$http({
+							url : 'http://localhost:8888/restaurant/'+id,
+							method : 'DELETE'
+						}).then(function(response) {
+						
+							$scope.getRest();
+						}, function(response) {
+							alert('failed');
+						})
+					}
+					
 				});
 
 app

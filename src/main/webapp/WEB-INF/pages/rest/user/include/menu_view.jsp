@@ -10,7 +10,7 @@
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
-      	<li><a href="/user/{id}">Hello &nbsp Youra</a></li>
+      	<li><a href="/user">Hello Youra</a></li>
         <li class="active"><a href="/"><span class="glyphicon glyphicon-home"></span> Home</a></li>
         <li><a href="/about"><span class=" glyphicon glyphicon-user"></span> About</a></li>
         <li><a href="#"><span class=" glyphicon glyphicon-earphone"></span> Contact</a></li>
