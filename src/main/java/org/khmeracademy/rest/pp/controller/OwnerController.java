@@ -11,6 +11,7 @@ public class OwnerController {
 	@RequestMapping(value = "/owner/{id}")
 	public String homeowner(@PathVariable int id, ModelMap model) {
 		model.addAttribute("id", id);
+		System.out.println("ID==>"+ id);
 		return "owner/layout/home_view";
 	}
 

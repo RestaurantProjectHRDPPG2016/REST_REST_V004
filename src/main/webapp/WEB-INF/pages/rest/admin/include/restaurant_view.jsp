@@ -99,7 +99,7 @@
 												<span class="glyphicon glyphicon-pencil"></span>
 										</button>
 									
-										<a href="/restaurant_detail_view/{{r.id}}" class="btn btn-primary">
+										<a href="restaurant_detail_view/{{r.id}}" class="btn btn-primary">
 												<span class="glyphicon glyphicon-level-up"></span>
 										</a>
 									</td>

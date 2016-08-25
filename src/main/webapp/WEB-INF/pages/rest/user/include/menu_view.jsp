@@ -17,7 +17,7 @@
         <li><a href="/about"><span class=" glyphicon glyphicon-user"></span> អំពីយើង</a></li>
         <li><a href="/contact_owner"><span class=" glyphicon glyphicon-earphone"></span> ទំនាក់ទំនង</a></li>
         <li><a href="/signup"><span class="glyphicon glyphicon-user"></span> ចុះឈ្មោះ</a></li>
-        <li><a href="login"><span class="glyphicon glyphicon-log-in"></span> ចូលប្រើ</a></li>
+        <li><a href="/login"><span class="glyphicon glyphicon-log-in"></span> ចូលប្រើ</a></li>
 </ul>
     </div>
   </div>

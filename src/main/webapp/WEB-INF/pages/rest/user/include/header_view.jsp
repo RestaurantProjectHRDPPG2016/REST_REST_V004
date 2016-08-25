@@ -47,11 +47,11 @@
 <script src="${pageContext.request.contextPath}/resources/static/js/jquery.bootpage.min.js" type="text/javascript"></script>
 
 <%@ taglib prefix="sec" uri="http://www.springframework.org/security/tags" %>
-<sec:authorize access="isAuthenticated()">
-	<sec:authentication property="principal" var="id"/>
-</sec:authorize>
-<script>
-	var userId = '<sec:authentication property="principal" var="id"/>';
-</script>
+<%-- <sec:authorize access="isAuthenticated()"> --%>
+<%-- 	<sec:authentication property="principal" var="id"/> --%>
+<%-- </sec:authorize> --%>
+<!-- <script> -->
+<%-- 	var userId = '<sec:authentication property="principal" var="id"/>'; --%>
+<!-- </script> -->
 </head>
 <body onload="geoFindMe()">

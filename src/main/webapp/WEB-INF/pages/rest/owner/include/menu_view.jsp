@@ -65,5 +65,6 @@
 <script>
 	cat_id = "${id}";
 	type_id = "${type_id}";
+	alert(cat_id);
 </script>
 <!-- HEo -->
