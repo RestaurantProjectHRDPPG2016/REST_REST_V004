@@ -53,7 +53,5 @@
 <script>
 	var userId = '<sec:authentication property="principal" var="id"/>';
 </script>
-
-
 </head>
 <body onload="geoFindMe()">
