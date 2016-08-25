@@ -22,7 +22,7 @@
                     <div class="input-group-btn">
                         <button type="button" class="btn btn-search btn-success" ng-click="search(); $event.stopPropagation();">
                             <span class="glyphicon glyphicon-search"></span>
-                            <span class="label-icon">Search</span>
+                            <span class="label-icon">ស្វែងរក</span>
                         </button>
                         <button type="button" class="btn btn-success dropdown-toggle" >
                           <select
@@ -42,7 +42,7 @@
 </div>
   <div class="col-md-4" style="margin-top:0px; float:right;"> 
  <div class="input-group col-md-12 col-sm-12 col-xs-12">
-                <input type="button" class="form-control" id="location"  value="Phnom Penh, Tul Kork"/>
+                <input type="button" class="form-control" id="location"  value="ស្វែងរកតាម ក្រុង /​ ខេត្ត"/>
                 <div class="input-group-btn">
               
                     <div class="btn-group" role="group">
@@ -99,7 +99,7 @@
     </form>  
   </div>
   <br><br>
-            Type : &nbsp <a  ng-repeat="r in myrestType" style="font-size:12px;" href="/typerestaurant/{{r.id}}">{{r.name}}</a>
+            ប្រភេទអាហារ : &nbsp <a  ng-repeat="r in myrestType" style="font-size:12px;" href="/typerestaurant/{{r.id}}">{{r.name}}</a>
 
 </div>
 

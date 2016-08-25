@@ -1,3 +1,5 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
 <nav class="navbar" id="nav" style="background:rgb(85, 174, 221);">
   <div class="container-fluid">
   <div class="container">
@@ -10,12 +12,12 @@
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
-      	<li><a href="/user/{id}">Hello &nbsp Youra</a></li>
-        <li class="active"><a href="/"><span class="glyphicon glyphicon-home"></span> Home</a></li>
-        <li><a href="/about"><span class=" glyphicon glyphicon-user"></span> About</a></li>
-        <li><a href="#"><span class=" glyphicon glyphicon-earphone"></span> Contact</a></li>
-        <li><a href="/signup"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-        <li><a href="login"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      	<!-- <li><a href="/user/{id}">Hello &nbsp Youra</a></li> -->
+        <li class="active"><a href="/"><span class="glyphicon glyphicon-home"></span> ទំព័រដើម</a></li>
+        <li><a href="/about"><span class=" glyphicon glyphicon-user"></span> អំពីយើង</a></li>
+        <li><a href="#"><span class=" glyphicon glyphicon-earphone"></span> ទំនាក់ទំនង</a></li>
+        <li><a href="/signup"><span class="glyphicon glyphicon-user"></span> ចុះឈ្មោះ</a></li>
+        <li><a href="login"><span class="glyphicon glyphicon-log-in"></span> ចូលប្រើ</a></li>
      	
       </ul>
     </div>
