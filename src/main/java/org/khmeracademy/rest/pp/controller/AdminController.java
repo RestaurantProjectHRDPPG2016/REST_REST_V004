@@ -6,8 +6,9 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
+@RequestMapping(value="/admin")
 public class AdminController {
-	@RequestMapping(value="/admin")
+	@RequestMapping(value={"/dashboard", "", "/"})
 	public String admin(){
 		return "admin/layout/admin_view";
 	}
