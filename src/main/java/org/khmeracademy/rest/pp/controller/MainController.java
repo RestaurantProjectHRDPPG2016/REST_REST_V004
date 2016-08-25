@@ -23,4 +23,8 @@ public class MainController {
 		public String user_signup(){
 			return "user/layout/user_signup_view";
 		}
+		@RequestMapping(value="/contact_owner")
+		public String contactowner(){
+			return "user/layout/contact_view";
+		}
 }
