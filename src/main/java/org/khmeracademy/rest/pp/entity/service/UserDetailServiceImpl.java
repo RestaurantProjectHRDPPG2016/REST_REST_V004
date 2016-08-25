@@ -2,7 +2,6 @@ package org.khmeracademy.rest.pp.entity.service;
 
 import org.khmeracademy.rest.pp.entity.Member;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpMethod;
@@ -15,7 +14,6 @@ import org.springframework.web.client.RestTemplate;
 
 
 @Service
-@Qualifier("myUserDetailServiceImpl")
 public class UserDetailServiceImpl implements UserDetailsService {
 
 	@Autowired

@@ -116,31 +116,31 @@
             <div class="collapse navbar-collapse navbar-ex1-collapse">
                 <ul class="nav navbar-nav side-nav">
                     <li class="active">
-                        <a href="index.html"><i class="fa fa-fw fa-dashboard"></i> Dashboard</a>
+                        <a href="/admin/dashboard"><i class="fa fa-fw fa-dashboard"></i> Dashboard</a>
                     </li>
                     <li>
-                        <a href="/members"><i class="fa fa-fw fa-bar-chart-o"></i> Member</a>
+                        <a href="/admin/members"><i class="fa fa-fw fa-bar-chart-o"></i> Member</a>
                     </li>
                     <li>
-                        <a href="/restaurant"><i class="fa fa-fw fa-table"></i> Restaurant</a>
+                        <a href="/admin/restaurant"><i class="fa fa-fw fa-table"></i> Restaurant</a>
                     </li>
                     <li>
-                        <a href="/location"><i class="fa fa-fw fa-edit"></i>Location</a>
+                        <a href="/admin/location"><i class="fa fa-fw fa-edit"></i>Location</a>
                     </li>
                     <li>
-                        <a href="/category"><i class="fa fa-fw fa-desktop"></i>Category</a>
+                        <a href="/admin/category"><i class="fa fa-fw fa-desktop"></i>Category</a>
                     </li>
                     <li>
-                        <a href="/event"><i class="fa fa-fw fa-wrench"></i>Event</a>
+                        <a href="/admin/event"><i class="fa fa-fw fa-wrench"></i>Event</a>
                     </li>
                         <li>
-                        <a href="/views"><i class="fa fa-fw fa-wrench"></i>Views</a>
+                        <a href="/admin/views"><i class="fa fa-fw fa-wrench"></i>Views</a>
                     </li>
                         <li>
-                        <a href="/setting"><i class="fa fa-fw fa-wrench"></i>Setting</a>
+                        <a href="/admin/setting"><i class="fa fa-fw fa-wrench"></i>Setting</a>
                     </li>
                        <li>
-                        <a href="/history"><i class="fa fa-fw fa-wrench"></i>History</a>
+                        <a href="/admin/history"><i class="fa fa-fw fa-wrench"></i>History</a>
                     </li>
            
                     <li>
